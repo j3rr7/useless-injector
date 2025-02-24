@@ -525,8 +525,8 @@ int main()
     const std::string iniFilePath = "config.ini";
 
     std::map<std::string, std::string> defaultConfig = {
-        {"executablePath", "E:\\Games\\Netmarble Game\\sololv\\Solo_Leveling_ARISE.exe"},
-        {"libraryPath", "E:\\self-project\\IL2CPP_Scanner_Reborn\\Il2CppScn.dll"}
+        {"executablePath", "C:\\Windows\\System32\\notepad.exe"},
+        {"libraryPath", "E:\\Custom.dll"}
     };
 
     std::map<std::string, std::string> config = readIniFile(iniFilePath);
